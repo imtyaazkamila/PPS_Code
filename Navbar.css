@@ -1,0 +1,26 @@
+.navbar {
+  background-color: #5b83c9;
+  color: black;
+  padding: 10px 0;
+  position: fixed;
+  width: 100%;
+  top: 0;
+}
+
+.menu {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.menu-item {
+  margin: 0 15px;
+  cursor: pointer;
+  color: white;
+}
+
+.menu-item:hover {
+  color: #ddd;
+}

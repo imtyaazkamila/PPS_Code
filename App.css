@@ -1,0 +1,46 @@
+.App {
+  text-align: center;
+  font-family: Arial, sans-serif;
+}
+
+main {
+  margin-top: 50px;
+}
+
+.columns.is-half {
+  justify-content: center; /* Memusatkan kolom di dalam container */
+}
+
+.table {
+  border-collapse: collapse; /* Menghilangkan jarak antara border */
+  width: 100%; /* Memastikan tabel mengambil lebar penuh */
+}
+
+.table th, .table td {
+  border: 1px solid #dddddd; /* Garis border untuk sel */
+  text-align: left; /* Rata kiri untuk teks */
+  padding: 8px; /* Jarak dalam sel */
+}
+
+.table th {
+  background-color: #f2f2f2; /* Warna latar belakang untuk header */
+}
+
+.table tr:nth-child(even) {
+  background-color: #f9f9f9; /* Warna latar belakang untuk baris genap */
+}
+
+.button {
+  margin: 0 5px; /* Memberikan jarak antar tombol */
+}
+
+/* Gaya untuk tombol */
+.button.is-info {
+  background-color: #00d1b2; /* Warna tombol info */
+  color: white; /* Warna teks tombol */
+}
+
+.button.is-danger {
+  background-color: #ff3860; /* Warna tombol danger */
+  color: white; /* Warna teks tombol */
+}
